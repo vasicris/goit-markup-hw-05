@@ -684,6 +684,10 @@ li {
     width: 206px;
 }
 
+.page-link.active-link {
+    position: relative;
+}
+
 .page-link.active-link::after {
     content: "";
     border: 2px solid #2196f3;
@@ -692,5 +696,9 @@ li {
     bottom: -32px;
     border-radius: 2px;
     left: 0;
+    visibility: visible;
+}
+
+.page-link.active-link::after {
     visibility: visible;
 }
