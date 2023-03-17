@@ -364,7 +364,7 @@ li {
     justify-content: center;
 }
 
-what-we-do-exemple {
+.what-we-do-exemple {
     display: flex;
     flex-direction: column-reverse;
 }
@@ -373,7 +373,6 @@ what-we-do-exemple {
     position: absolute;
     width: 370px;
     height: 70px;
-    top: 1463px;
     background: rgba(47, 48, 58, 0.8);
     color: white;
     letter-spacing: 0.03em;
@@ -381,6 +380,7 @@ what-we-do-exemple {
     justify-content: center;
     display: flex;
     align-items: center;
+    box-sizing: border-box;
 }
 
 .section-our-team {
