@@ -42,6 +42,7 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: opacity 250ms linear;
 }
 
 .is-hidden {
